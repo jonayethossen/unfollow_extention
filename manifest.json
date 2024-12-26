@@ -1,0 +1,23 @@
+{
+  "name": "Un-follow Bot",
+  "description": "bot",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Junayed Bot"
+  },
+  "permissions": ["tabs", "activeTab", "scripting", "commands"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "instagram": {
+      "suggested_key": "Ctrl+Shift+Y",
+      "description": "Inject a script on the page"
+    },
+    "tiktok": {
+      "suggested_key": "Ctrl+Shift+U",
+      "description": "Inject a script on the page"
+    }
+  }
+}
